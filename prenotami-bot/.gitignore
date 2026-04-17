@@ -1,0 +1,9 @@
+node_modules/
+.env
+logs/
+sessions/
+*.log
+.DS_Store
+dist/
+accounts/accounts.json
+screenshots/

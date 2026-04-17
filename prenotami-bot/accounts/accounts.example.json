@@ -1,0 +1,28 @@
+[
+  {
+    "id": "account-001",
+    "enabled": true,
+    "email": "your_prenotami_email@example.com",
+    "password": "your_prenotami_password",
+    "firstName": "Mario",
+    "lastName": "Rossi",
+    "fiscalCode": "RSSMRA80A01H501U",
+    "birthDate": "1980-01-01",
+    "phone": "+39 333 1234567",
+    "passport": "AA1234567",
+    "notes": "Primary applicant"
+  },
+  {
+    "id": "account-002",
+    "enabled": true,
+    "email": "second_email@example.com",
+    "password": "second_password",
+    "firstName": "Giulia",
+    "lastName": "Bianchi",
+    "fiscalCode": "BNCGLI90B41F205Z",
+    "birthDate": "1990-02-01",
+    "phone": "+39 348 9876543",
+    "passport": "BB9876543",
+    "notes": "Secondary applicant"
+  }
+]

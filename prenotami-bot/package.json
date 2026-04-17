@@ -1,0 +1,39 @@
+{
+  "name": "prenotami-smart-bot",
+  "version": "5.0.0",
+  "description": "Prenotami Smart Automation Bot",
+  "main": "src/index.js",
+  "scripts": {
+    "start":          "node src/index.js",
+    "dev":            "nodemon src/index.js",
+    "setup":          "node scripts/setup.js",
+    "test":           "node src/utils/test-connection.js",
+    "test-login":     "node scripts/test-login.js",
+    "test-telegram":  "node scripts/test-telegram.js"
+  },
+  "dependencies": {
+    "puppeteer": "^21.0.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "puppeteer-extra-plugin-anonymize-ua": "^2.4.6",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.0",
+    "winston": "^3.11.0",
+    "winston-daily-rotate-file": "^4.7.1",
+    "node-cron": "^3.0.3",
+    "chalk": "^4.1.2",
+    "uuid": "^9.0.0",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.43",
+    "lodash": "^4.17.21",
+    "user-agents": "^1.1.100",
+    "p-queue": "^7.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "PRIVATE"
+}
