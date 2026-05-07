@@ -4,12 +4,12 @@
   "description": "Prenotami Smart Automation Bot",
   "main": "src/index.js",
   "scripts": {
-    "start":          "node src/index.js",
-    "dev":            "nodemon src/index.js",
-    "setup":          "node scripts/setup.js",
-    "test":           "node src/utils/test-connection.js",
-    "test-login":     "node scripts/test-login.js",
-    "test-telegram":  "node scripts/test-telegram.js"
+    "start": "node init && node src/index.js",
+    "dev": "node init && nodemon src/index.js",
+    "setup": "node scripts/setup.js",
+    "test": "node src/utils/test-connection.js",
+    "test-login": "node scripts/test-login.js",
+    "test-telegram": "node scripts/test-telegram.js"
   },
   "dependencies": {
     "puppeteer": "^21.0.0",
